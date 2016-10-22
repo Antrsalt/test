@@ -1,0 +1,102 @@
+/etc/mdm/Xsession: Beginning session setup...
+localuser:katya being added to access control list
+/etc/mdm/Xsession: 3: [: xcinnamon: unexpected operator
+** Message: couldn't access control socket: /run/user/1000/keyring/control: No such file or directory
+** Message: couldn't access control socket: /run/user/1000/keyring/control: No such file or directory
+** Message: couldn't access control socket: /run/user/1000/keyring/control: No such file or directory
+SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+=== xinerama setup Configuration ===
+  Clone: false
+  Output: Laptop attached to LVDS1
+     status: on
+     width: 1366
+     height: 768
+     rate: 60
+     primary: true
+     position: 0 0
+  Output: (null) attached to DP1
+     status: off
+     width: -1
+     height: -1
+     rate: -1
+     primary: false
+     position: -1 -1
+  Output: (null) attached to HDMI1
+     status: off
+     width: -1
+     height: -1
+     rate: -1
+     primary: false
+     position: -1 -1
+  Output: (null) attached to VGA1
+     status: off
+     width: -1
+     height: -1
+     rate: -1
+     primary: false
+     position: -1 -1
+  Output: (null) attached to VIRTUAL1
+     status: off
+     width: -1
+     height: -1
+     rate: -1
+     primary: false
+     position: -1 -1
+=== Applying Configuration Configuration ===
+  Clone: false
+  Output: Laptop attached to LVDS1
+     status: on
+     width: 1366
+     height: 768
+     rate: 60
+     primary: true
+     position: 0 0
+  Output: (null) attached to DP1
+     status: off
+     width: -1
+     height: -1
+     rate: -1
+     primary: false
+     position: -1 -1
+  Output: (null) attached to HDMI1
+     status: off
+     width: -1
+     height: -1
+     rate: -1
+     primary: false
+     position: -1 -1
+  Output: (null) attached to VGA1
+     status: off
+     width: -1
+     height: -1
+     rate: -1
+     primary: false
+     position: -1 -1
+  Output: (null) attached to VIRTUAL1
+     status: off
+     width: -1
+     height: -1
+     rate: -1
+     primary: false
+     position: -1 -1
+/usr/lib/blueberry/blueberry-tray.py:5: PyGIWarning: Gtk was imported without specifying a version first. Use gi.require_version('Gtk', '3.0') before import to ensure that the right version gets loaded.
+  from gi.repository import Gtk, Gdk, GnomeBluetooth, Gio
+/usr/lib/blueberry/blueberry-tray.py:5: PyGIWarning: GnomeBluetooth was imported without specifying a version first. Use gi.require_version('GnomeBluetooth', '1.0') before import to ensure that the right version gets loaded.
+  from gi.repository import Gtk, Gdk, GnomeBluetooth, Gio
+/usr/lib/nvidia-prime-applet/nvidia-prime:5: PyGIWarning: Gtk was imported without specifying a version first. Use gi.require_version('Gtk', '3.0') before import to ensure that the right version gets loaded.
+  from gi.repository import Gtk, Gdk
+Cjs-Message: JS LOG: About to start Cinnamon
+sys:1: PyGIWarning: Nemo was imported without specifying a version first. Use gi.require_version('Nemo', '3.0') before import to ensure that the right version gets loaded.
+St-Message: cogl npot texture sizes SUPPORTED
+Cjs-Message: JS LOG: Cinnamon started at Sat Oct 22 2016 22:19:18 GMT+0600 (OMST)
+Cjs-Message: JS LOG: network applet: Cannot find connection for active (or connection cannot be read)
+openGL version 3.3 detected (GL3 Cogl Driver)
+MetaSyncRing disabled: couldn't find required GL extensions, or the minimum safe openGL version was not met
+failed to create drawable
+Cjs-Message: JS LOG: Invalid network device type, is 14
+Cjs-Message: JS LOG: network applet: Found connection for active
+
+(blueberry-tray.py:1720): Gdk-CRITICAL **: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+mintUpdate: no process found

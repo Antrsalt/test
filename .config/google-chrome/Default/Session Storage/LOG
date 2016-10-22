@@ -1,0 +1,37 @@
+2016/10/22-01:22:15.543 13694 Reusing MANIFEST /home/katya/.config/google-chrome/Default/Session Storage/MANIFEST-000001
+2016/10/22-01:22:15.543 13694 Recovering log #22
+2016/10/22-01:22:15.545 13694 Reusing old log /home/katya/.config/google-chrome/Default/Session Storage/000022.log 
+2016/10/22-01:23:06.101 13652 Current memtable full; waiting...
+2016/10/22-01:23:06.114 14083 Level-0 table #26: started
+2016/10/22-01:23:06.218 14083 Level-0 table #26: 35319 bytes OK
+2016/10/22-01:23:06.274 14083 Delete type=0 #22
+2016/10/22-01:23:06.274 14083 Compacting 4@0 + 1@1 files
+2016/10/22-01:23:06.274 14083 Level-0 table #28: started
+2016/10/22-01:23:06.319 14083 Level-0 table #28: 84855 bytes OK
+2016/10/22-01:23:06.386 14083 Delete type=0 #25
+2016/10/22-01:23:06.431 14083 Generated table #29@0: 770 keys, 36054 bytes
+2016/10/22-01:23:06.431 14083 Compacted 4@0 + 1@1 files => 36054 bytes
+2016/10/22-01:23:06.476 14083 compacted to: files[ 1 1 1 0 0 0 0 ]
+2016/10/22-01:23:06.476 14083 Delete type=2 #21
+2016/10/22-01:23:06.476 14083 Delete type=2 #19
+2016/10/22-01:23:06.476 14083 Delete type=2 #23
+2016/10/22-01:23:06.476 14083 Delete type=2 #26
+2016/10/22-01:23:06.476 14083 Delete type=2 #17
+2016/10/22-01:23:48.107 14083 Level-0 table #31: started
+2016/10/22-01:23:48.225 14083 Level-0 table #31: 131196 bytes OK
+2016/10/22-01:23:48.303 14083 Delete type=0 #27
+2016/10/22-02:02:24.809 14083 Level-0 table #33: started
+2016/10/22-02:02:24.870 14083 Level-0 table #33: 284501 bytes OK
+2016/10/22-02:02:24.938 14083 Delete type=0 #30
+2016/10/22-02:02:31.180 14083 Level-0 table #35: started
+2016/10/22-02:02:31.291 14083 Level-0 table #35: 131575 bytes OK
+2016/10/22-02:02:31.325 14083 Delete type=0 #32
+2016/10/22-02:02:31.325 14083 Compacting 4@0 + 1@1 files
+2016/10/22-02:02:31.403 14083 Generated table #36@0: 1026 keys, 665740 bytes
+2016/10/22-02:02:31.403 14083 Compacted 4@0 + 1@1 files => 665740 bytes
+2016/10/22-02:02:31.436 14083 compacted to: files[ 0 1 1 0 0 0 0 ]
+2016/10/22-02:02:31.438 14083 Delete type=2 #31
+2016/10/22-02:02:31.447 14083 Delete type=2 #33
+2016/10/22-02:02:31.448 14083 Delete type=2 #28
+2016/10/22-02:02:31.448 14083 Delete type=2 #35
+2016/10/22-02:02:31.448 14083 Delete type=2 #29

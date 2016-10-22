@@ -1,0 +1,27 @@
+{
+   "background": {
+      "page": "background.html",
+      "persistent": true
+   },
+   "browser_action": {
+      "default_icon": {
+         "19": "im/ico38g-2.png",
+         "38": "im/ico38g-2.png"
+      },
+      "default_popup": "popup.html",
+      "default_title": "__MSG_browser_action_title__"
+   },
+   "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+   "default_locale": "en",
+   "description": "__MSG_chrome_extension_description__",
+   "icons": {
+      "128": "im/ico128-2.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAgVuA8GwKFNB+NwqqTqXKo10yD1VL5C+pFpOjXsM7zsuSdK9qQknO3FGzxoDor8y8eh8fieg+4aSwruQeTS57qCa/Gg4mBCmyNjfeXBOv8MuyMcwiEMGFfZ9Ac/5g3nQrWdQgFhfEmfy9P8Fhdqelu3cByMTMJp7MsF5hi5ypxHnfMwKfeCl0TrUtr7MXvWucG3sWnMqf008M3l9pb8Re6uwjQWgj1RXoEYQTrYP55xkg8t8T22jk5q02WOuygajtPBScfL0D8rB+8FxBlQ+nnS0hreDc0zXM4mCsx6P5SxeC4B3Z4eVSC+GmzKW+F3kcNRWzphQMxDBhXBDKRmJhrwIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_chrome_extension_name__",
+   "permissions": [ "webNavigation", "contextMenus", "webRequest", "webRequestBlocking", "unlimitedStorage", "tabs", "proxy", "browsingData", "http://*/*", "https://*/*", "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.13",
+   "web_accessible_resources": [  ]
+}

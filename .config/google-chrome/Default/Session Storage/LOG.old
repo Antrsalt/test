@@ -1,0 +1,36 @@
+2016/10/22-00:20:05.978 11150 Reusing MANIFEST /home/katya/.config/google-chrome/Default/Session Storage/MANIFEST-000001
+2016/10/22-00:20:05.979 11150 Recovering log #4
+2016/10/22-00:20:05.979 11150 Reusing old log /home/katya/.config/google-chrome/Default/Session Storage/000004.log 
+2016/10/22-00:20:12.751 11318 Level-0 table #8: started
+2016/10/22-00:20:12.857 11318 Level-0 table #8: 145180 bytes OK
+2016/10/22-00:20:12.891 11318 Delete type=0 #4
+2016/10/22-00:21:27.899 11318 Level-0 table #10: started
+2016/10/22-00:21:28.019 11318 Level-0 table #10: 84637 bytes OK
+2016/10/22-00:21:28.075 11318 Delete type=0 #7
+2016/10/22-00:21:48.077 11318 Level-0 table #12: started
+2016/10/22-00:21:48.197 11318 Level-0 table #12: 260653 bytes OK
+2016/10/22-00:21:48.254 11318 Delete type=0 #9
+2016/10/22-00:21:56.844 11318 Level-0 table #14: started
+2016/10/22-00:21:56.991 11318 Level-0 table #14: 345933 bytes OK
+2016/10/22-00:21:57.036 11318 Delete type=0 #11
+2016/10/22-00:24:04.068 11318 Level-0 table #16: started
+2016/10/22-00:24:04.191 11318 Level-0 table #16: 377997 bytes OK
+2016/10/22-00:24:04.226 11318 Delete type=0 #13
+2016/10/22-00:24:04.227 11318 Compacting 4@0 + 1@1 files
+2016/10/22-00:24:04.315 11318 Generated table #17@0: 545 keys, 1212543 bytes
+2016/10/22-00:24:04.315 11318 Compacted 4@0 + 1@1 files => 1212543 bytes
+2016/10/22-00:24:04.371 11318 compacted to: files[ 0 1 1 0 0 0 0 ]
+2016/10/22-00:24:04.372 11318 Delete type=2 #14
+2016/10/22-00:24:04.372 11318 Delete type=2 #10
+2016/10/22-00:24:04.372 11318 Delete type=2 #12
+2016/10/22-00:24:04.372 11318 Delete type=2 #8
+2016/10/22-00:24:04.372 11318 Delete type=2 #16
+2016/10/22-00:27:11.200 11318 Level-0 table #19: started
+2016/10/22-00:27:11.389 11318 Level-0 table #19: 64365 bytes OK
+2016/10/22-00:27:11.423 11318 Delete type=0 #15
+2016/10/22-00:29:35.890 11318 Level-0 table #21: started
+2016/10/22-00:29:36.058 11318 Level-0 table #21: 102564 bytes OK
+2016/10/22-00:29:36.092 11318 Delete type=0 #18
+2016/10/22-01:17:35.850 11318 Level-0 table #23: started
+2016/10/22-01:17:35.957 11318 Level-0 table #23: 134817 bytes OK
+2016/10/22-01:17:36.002 11318 Delete type=0 #20

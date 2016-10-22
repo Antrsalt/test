@@ -1,0 +1,30 @@
+info t=2016-10-22T03:27:16.249Z Cinnamon.AppSystem.get_default() started in 515 ms
+info t=2016-10-22T03:27:16.255Z loading user theme: /usr/share/themes/Linux Mint/cinnamon/cinnamon.css
+info t=2016-10-22T03:27:16.280Z added icon directory: /usr/share/themes/Linux Mint/cinnamon
+info t=2016-10-22T03:27:16.621Z PlacesManager: Updating devices
+info t=2016-10-22T03:27:16.655Z loaded at Sat Oct 22 2016 09:27:16 GMT+0600 (OMST)
+info t=2016-10-22T03:27:17.222Z Loaded applet menu@cinnamon.org in 521 ms
+info t=2016-10-22T03:27:17.231Z Loaded applet show-desktop@cinnamon.org in 7 ms
+info t=2016-10-22T03:27:17.268Z Role locked: panellauncher
+info t=2016-10-22T03:27:17.268Z Loaded applet panel-launchers@cinnamon.org in 35 ms
+info t=2016-10-22T03:27:17.283Z Loaded applet window-list@cinnamon.org in 13 ms
+info t=2016-10-22T03:27:17.295Z Role locked: notifications
+info t=2016-10-22T03:27:17.301Z Loaded applet notifications@cinnamon.org in 15 ms
+info t=2016-10-22T03:27:17.469Z Loaded applet user@cinnamon.org in 166 ms
+info t=2016-10-22T03:27:17.480Z Loaded applet removable-drives@cinnamon.org in 10 ms
+info t=2016-10-22T03:27:17.656Z Loaded applet keyboard@cinnamon.org in 174 ms
+info t=2016-10-22T03:27:17.845Z Loaded applet network@cinnamon.org in 186 ms
+info t=2016-10-22T03:27:17.887Z Loaded applet sound@cinnamon.org in 41 ms
+info t=2016-10-22T03:27:17.911Z Loaded applet power@cinnamon.org in 22 ms
+info t=2016-10-22T03:27:17.922Z Loaded applet systray@cinnamon.org in 10 ms
+info t=2016-10-22T03:27:17.949Z Loaded applet calendar@cinnamon.org in 25 ms
+info t=2016-10-22T03:27:17.960Z Loaded applet windows-quick-list@cinnamon.org in 10 ms
+info t=2016-10-22T03:27:17.960Z AppletManager.init() started in 1304 ms
+info t=2016-10-22T03:27:17.964Z Cinnamon took 2514 ms to start
+info t=2016-10-22T03:27:18.588Z Adding systray: blueberry-tray.py (24x24px)
+info t=2016-10-22T03:27:18.591Z Hiding systray: network
+info t=2016-10-22T03:27:27.783Z GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.cinnamon.SettingsDaemon was not provided by any .service files
+trace t=2016-10-22T03:27:27.783Z 
+<----------------
+_proxyInvoker/asyncCallback@resource:///org/gnome/gjs/modules/overrides/Gio.js:83
+---------------->

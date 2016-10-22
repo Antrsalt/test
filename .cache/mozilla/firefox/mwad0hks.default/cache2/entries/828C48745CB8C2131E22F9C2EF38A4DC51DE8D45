@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset='utf-8'>
+  <meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"20c4a8c482","applicationID":"454369","transactionName":"dl5cQkcLXF9XRBoBW0JfXllUAEMcVllCC1haUFY=","queueTime":0,"applicationTime":6,"ttGuid":"","agentToken":null,"agent":""}</script>
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function r(){}function o(t,e,n){return function(){return i(t,[(new Date).getTime()].concat(u(arguments)),e?null:this,n),e?void 0:this}}var i=t("handle"),a=t(2),u=t(3),c=t("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var s=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit"],p="api-",l=p+"ixn-";a(s,function(t,e){f[e]=o(p+e,!0,"api")}),f.addPageAction=o(p+"addPageAction",!0),e.exports=newrelic,f.interaction=function(){return(new r).get()};var d=r.prototype={createTracer:function(t,e){var n={},r=this,o="function"==typeof e;return i(l+"tracer",[Date.now(),t,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return e.apply(this,arguments)}finally{c.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){d[e]=o(l+e)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,(new Date).getTime()])}},{}],2:[function(t,e,n){function r(t,e){var n=[],r="",i=0;for(r in t)o.call(t,r)&&(n[i]=e(r,t[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],3:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(o<0?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=r},{}],ee:[function(t,e,n){function r(){}function o(t){function e(t){return t&&t instanceof r?t:t?u(t,a,i):i()}function n(n,r,o){t&&t(n,r,o);for(var i=e(o),a=l(n),u=a.length,c=0;c<u;c++)a[c].apply(i,r);var s=f[m[n]];return s&&s.push([w,n,r,i]),i}function p(t,e){g[t]=l(t).concat(e)}function l(t){return g[t]||[]}function d(t){return s[t]=s[t]||o(n)}function v(t,e){c(t,function(t,n){e=e||"feature",m[n]=e,e in f||(f[e]=[])})}var g={},m={},w={on:p,emit:n,get:d,listeners:l,context:e,buffer:v};return w}function i(){return new r}var a="nr@context",u=t("gos"),c=t(2),f={},s={},p=e.exports=o();p.backlog=f},{}],gos:[function(t,e,n){function r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t("ee").get("handle");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!h++){var t=y.info=NREUM.info,e=s.getElementsByTagName("script")[0];if(t&&t.licenseKey&&t.applicationID&&e){c(m,function(e,n){t[e]||(t[e]=n)});var n="https"===g.split(":")[0]||t.sslForHttp;y.proto=n?"https://":"http://",u("mark",["onload",a()],null,"api");var r=s.createElement("script");r.src=y.proto+t.agent,e.parentNode.insertBefore(r,e)}}}function o(){"complete"===s.readyState&&i()}function i(){u("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var u=t("handle"),c=t(2),f=window,s=f.document,p="addEventListener",l="attachEvent",d=f.XMLHttpRequest,v=d&&d.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:d,REQ:f.Request,EV:f.Event,PR:f.Promise,MO:f.MutationObserver},t(1);var g=""+location,m={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-974.min.js"},w=d&&v&&v[p]&&!/CriOS/.test(navigator.userAgent),y=e.exports={offset:a(),origin:g,features:{},xhrWrappable:w};s[p]?(s[p]("DOMContentLoaded",i,!1),f[p]("load",r,!1)):(s[l]("onreadystatechange",o),f[l]("onload",r)),u("mark",["firstbyte",a()],null,"api");var h=0},{}]},{},["loader"]);</script>
+
+  <title>Git</title>
+
+  <link href='/favicon.ico' rel='shortcut icon' type='image/x-icon'>
+  <link rel="alternate" href="/blog.rss" type="application/rss+xml" title="Git - Blog">
+
+  <link rel="stylesheet" media="screen" href="/assets/git-scm-65ca8280a031499ee9e8e2b10c8a596c.css" />
+  <script src="/assets/modernizr-10d8d48497292341fc1c4a63d06c6f61.js"></script>
+<script src="/assets/modernizr-tests-0e26a9afd9c6455a99b7b4165485c366.js"></script>
+  <!--[if (gte IE 6)&(lte IE 8)]>
+  <script src="/javascripts/selectivizr-min.js"></script>
+  <![endif]-->
+
+  <script src="https://use.typekit.com/jsq2fql.js" type="text/javascript"></script>
+  <script>
+    //<![CDATA[
+      try{Typekit.load();}catch(e){}
+    //]]>
+  </script>
+
+</head>
+
+<body id="downloads">
+
+  <div id="banner">
+    <div class="inner">
+      <h3>The 2016 Git User's Survey is now up! <em>12 September &mdash; 20 October 2016.</em></h3>
+
+      <p>Please devote a few moments of your time to
+      <a href="https://survs.com/survey/0janvqmmyg">fill out the simple questionnaire</a>.
+      It will help the Git community understand your needs, what you like
+      about Git (and what you don't), and help us improve it in general.
+      The results will be published at the
+      <a href="http://git.wiki.kernel.org/index.php/GitSurvey2016">GitSurvey2016</a>
+      wiki page.
+    </div>
+  </div>
+
+  <div class="inner">
+    <header>
+
+  <a href="/"><img src="/images/logo@2x.png" width="110" height="46" alt="Git" /></a>
+  <span id="tagline">
+    <em>--</em>distributed-even-if-your-workflow-isnt
+  </span>
+
+  <form id="search" action="/search/results">
+    <input id="search-text" name="search" placeholder="Search entire site..." autocomplete="off" type="text" />
+  </form>
+  <div id="search-results"></div>
+
+</header>
+
+  </div> <!-- .inner -->
+
+    <div class="inner">
+      <div id="content-wrapper">
+        <aside class="sidebar">
+  <nav>
+    <ul>
+      <li>
+        <a href="/about">About</a>
+      </li>
+      <li>
+        <a href="/doc">Documentation</a>
+        <ul class="">
+          <li>
+            <a href="/docs">Reference</a>
+          </li>
+          <li>
+            <a href="/book">Book</a>
+          </li>
+          <li>
+            <a href="/videos">Videos</a>
+          </li>
+          <li>
+            <a href="/doc/ext">External Links</a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <a href="/blog">Blog</a>
+      </li>
+      <li>
+        <a class="active" href="/downloads">Downloads</a>
+        <ul class="expanded">
+          <li>
+            <a href="/downloads/guis">GUI Clients</a>
+          </li>
+          <li>
+            <a href="/downloads/logos">Logos</a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <a href="/community">Community</a>
+      </li>
+    </ul>
+  </nav>
+</aside>
+        <div id="content">
+          
+<div id="main">
+  <h1>Download for Linux and Unix</h1>
+  <p>It is easiest to install Git on Linux using the preferred package manager of your Linux distribution.</p>
+
+  <h3>Debian/Ubuntu</h3>
+  <code>$ apt-get install git</code>
+
+  <h3>Fedora</h3>
+  <code>$ yum install git</code> (up to Fedora 21)<br>
+  <code>$ dnf install git</code> (Fedora 22 and later)
+
+  <h3>Gentoo</h3>
+  <code>$ emerge --ask --verbose dev-vcs/git</code>
+
+  <h3>Arch Linux</h3>
+  <code>$ pacman -S git</code>
+
+  <h3>openSUSE</h3>
+  <code>$ zypper install git</code>
+
+  <h3>FreeBSD</h3>
+  <code>$ cd /usr/ports/devel/git</code><br><code>$ make install</code>
+  
+  <h3>Solaris 9/10/11 (<a href="https://opencsw.org">OpenCSW</a>)</h3>
+  <code>$ pkgutil -i git</code>
+
+  <h3>Solaris 11 Express</h3>
+  <code>$ pkg install developer/versioning/git</code>
+  
+  <h3>OpenBSD</h3>
+  <code>$ pkg_add git</code>
+  
+  <h3>Red Hat Enterprise Linux, Oracle Linux, CentOS, Scientific Linux, et al.</h3>
+  <p>RHEL and derivatives typically ship older versions of git.  If you cannot (or don't want to) compile git from source, you may need to use a 3rd-party repository such as <a href="https://ius.io/">the IUS Community Project</a> to obtain a more recent version of git.</p>
+
+</div>
+
+        </div>
+      </div>
+      <footer>
+  <div class="site-source">
+    This <a href="https://github.com/git/git-scm.com/blob/master/README.md#license">open sourced</a> site is <a href="https://github.com/git/git-scm.com">hosted on GitHub.</a><br>
+    Patches, suggestions and comments are welcome.
+  </div>
+  <div class="sfc-member">
+    Git is a member of <a href="/sfc">Software Freedom Conservancy</a>
+  </div>
+</footer>
+
+<script src="/assets/jquery-1.7.1.min-ae4fcd0fbc7a69a0676014f3b0488876.js"></script>
+<script src="/assets/jquery-ui-1.8.18.custom.min-e26b28f4c867b7ddf80395d18c42afe3.js"></script>
+<script src="/assets/jquery.defaultvalue-fb4265b0e862acfce66a73a5131528b3.js"></script>
+<script src="/assets/session.min-84e4d7864bab5f4f7b2eafd9c1ebc0ca.js"></script>
+<script src="/assets/site-1dedb2e04243f2cda0b571c1ade66561.js"></script>
+
+    </div>
+
+</body>
+</html>
+MÙY<ùê      XiSXiU=[]       #    :https://git-scm.com/download/linux necko:classified 1 security-info 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 request-method GET response-head HTTP/1.1 200 OK
+Server: Cowboy
+Date: Wed, 19 Oct 2016 12:38:44 GMT
+Status: 200 OK
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Content-Type: text/html; charset=utf-8
+Content-Length: 9451
+Etag: W/"be6de07668e0e92bcdd080fea3fa7b87"
+Cache-Control: max-age=0, private, must-revalidate
+X-Request-Id: c5e86363-9a67-4a80-be1a-0ba9ac3f5058
+X-Runtime: 0.006339
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 vegur
+ charset UTF-8 uncompressed-len 0 predictor::resource-count 13 predictor::https://git-scm.com/assets/git-scm-65ca8280a031499ee9e8e2b10c8a596c.css 1,1,1476880723,0 predictor::https://git-scm.com/assets/modernizr-10d8d48497292341fc1c4a63d06c6f61.js 1,1,1476880723,0 predictor::https://git-scm.com/assets/modernizr-tests-0e26a9afd9c6455a99b7b4165485c366.js 1,1,1476880723,0 predictor::https://use.typekit.com/jsq2fql.js 1,1,1476880723,0 predictor::https://git-scm.com/assets/jquery-1.7.1.min-ae4fcd0fbc7a69a0676014f3b0488876.js 1,1,1476880723,0 predictor::https://git-scm.com/assets/jquery-ui-1.8.18.custom.min-e26b28f4c867b7ddf80395d18c42afe3.js 1,1,1476880723,0 predictor::https://git-scm.com/assets/jquery.defaultvalue-fb4265b0e862acfce66a73a5131528b3.js 1,1,1476880723,0 predictor::https://git-scm.com/assets/session.min-84e4d7864bab5f4f7b2eafd9c1ebc0ca.js 1,1,1476880723,0 predictor::https://git-scm.com/assets/site-1dedb2e04243f2cda0b571c1ade66561.js 1,1,1476880723,0 predictor::https://www.google.com/jsapi?callback=gloader_ready 1,1,1476880723,0 predictor::https://secure.gaug.es/track.js 1,1,1476880723,0 predictor::https://secure.gaug.es/track.gif?h[site_id]=4f919d1df5a1f504b3000026&h[resource]=https%3A%2F%2Fgit-scm.com%2Fdownload%2Flinux&h[referrer]=&h[title]=Git&h[user_agent]=Mozilla%2F5.0%20(X11%3B%20Ubuntu%3B%20Linux%20x86_64%3B%20rv%3A47.0)%20Gecko%2F20100101%20Firefox%2F47.0&h[unique]=0&h[unique_hour]=0&h[unique_day]=0&h[unique_month]=0&h[unique_year]=0&h[screenx]=1366&h[browserx]=1366&h[browsery]=646&timestamp=1476880724629 1,1,1476880723,0 predictor::https://js-agent.newrelic.com/nr-974.min.js 1,1,1476880723,0   $Î

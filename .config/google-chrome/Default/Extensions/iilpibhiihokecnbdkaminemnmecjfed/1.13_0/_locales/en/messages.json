@@ -1,0 +1,11 @@
+{
+   "browser_action_title": {
+      "message": "on/off"
+   },
+   "chrome_extension_description": {
+      "message": "Free proxy servers for you"
+   },
+   "chrome_extension_name": {
+      "message": "Proxy for Chrome"
+   }
+}
